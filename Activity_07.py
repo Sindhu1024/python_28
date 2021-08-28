@@ -1,0 +1,5 @@
+num=input("Enter 2 numbers")
+num_list=num.split(' ')
+a=map(int,num_list)
+b=sum(a)
+print(num_list[0],"+",num_list[1],"=",b)
