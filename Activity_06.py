@@ -1,0 +1,10 @@
+num=input("Enter 5 numbers")
+num_list=num.split(' ')
+slice_list=num_list[0:3]
+print("sliced list=",slice_list)
+num_list[0]='0'
+num_list[4]='0'
+print("Replaced list-1=",num_list)
+slice_list[0]='0'
+slice_list[2]='0'
+print("replaced list 2=",slice_list)
