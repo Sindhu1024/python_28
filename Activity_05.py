@@ -3,4 +3,4 @@ num1 = num.split(' ')
 sum = 0
 for i in num1:
 	sum = sum + int(i)
-print(sum)
+print("The sum of the numbers:",sum)
