@@ -1,6 +1,6 @@
 num = input("Enter 5 numbers")
-number_string_list = num.split(' ')
+num1 = num.split(' ')
 sum = 0
-for i in number_string_list:
+for i in numb1:
 	sum = sum + int(i)
 print(sum)
